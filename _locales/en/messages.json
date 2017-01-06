@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Bellevue College Rate My Professor App",
+    "description": "Get near instant ratings below each professor's name when on the Bellevue College classes page."
+  },
+  "appDesc": {
+    "message": "Don't get stuck with a bad professor next quarter.", 
+    "description":"Quickly view scores for almost every Bellevue College professer while viewing classes!"
+  }
+}

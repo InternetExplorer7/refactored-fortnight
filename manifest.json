@@ -1,0 +1,25 @@
+{
+  "name": "Bellevue College Rate My Professor Add-On",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extension was created by Kaveh Khorram",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": [
+        // Important: Read/Write data ONLY to BC.edu/classes/* URL locations.
+        "https://www.bellevuecollege.edu/classes/*",
+        "http://www.bellevuecollege.edu/classes/*"
+      ],
+      "js": [
+        "src/inject/inject.js",
+        "js/jquery/jquery.js"
+      ]
+    }
+  ]
+}
